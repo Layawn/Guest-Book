@@ -1,6 +1,6 @@
 <?php
 
-$db = @new mysqli('localhost', 'root', '', 'gb');;
+$db = @new mysqli('localhost', 'root', '', 'gb');
 
 if ($db->connect_error) {
     exit('Ошибка соединения mysqli: ' . $db->connect_error);
